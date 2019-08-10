@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+
+    overflow: auto;
+    flex-direction: column;
+}
+
+
+.child {
+    flex : none;
+
+    height: 100vh;
+    width: 100vw;
+
+    
+    background-position: center;
+    background-size: cover;
+
+    /** KEY FOR THE EFFECT */
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url('https://picsum.photos/g/1921/1081?random');
+}
+
+.img2 {
+    background-image: url('https://picsum.photos/g/1921/1082?random');
+}
+
+.img1 {
+    background-image: url('https://picsum.photos/g/1921/1080?random');
+}
