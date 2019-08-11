@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.child {
+
+}
+
+.img-block {
+    height: 50vh;
+    width: 100vw;
+
+    background-position: center;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+.i1 {
+    background-image: url('https://picsum.photos/g/1920/1080?random');
+}
+
+.i2 {
+    background-image: url('https://picsum.photos/g/1920/1081?random');
+}
+
+.data-block {
+    font-size: large;
+    padding: 20px;
+    text-align: center;
+}
